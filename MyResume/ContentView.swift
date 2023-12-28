@@ -22,7 +22,7 @@ struct ContentView: View {
                         Circle()
                             .offset(x: 0, y: 0)
                             .frame(width: 110, height: 110)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.gray)
                     }
                 
                 VStack(alignment: .leading) {
@@ -39,9 +39,7 @@ struct ContentView: View {
                 Text("Skills")
                     .font(.title)
                 
-                Rectangle()
-                    .frame(height: 0.6)
-                    .padding(.bottom, 6)
+                CustomRectangleView()
                 
                 Text("React, React Native, JavaScript, Typescript, Swift, SwiftUI, UIKit, Ionic")
                     .font(.system(size: 16))
@@ -53,9 +51,7 @@ struct ContentView: View {
                 Text("Work Experience")
                     .font(.title)
                 
-                Rectangle()
-                    .frame(height: 0.6)
-                    .padding(.bottom, 6)
+                CustomRectangleView()
                 
                 HStack {
                     Text("AlphaPoint")
@@ -92,9 +88,7 @@ struct ContentView: View {
                 Text("Education")
                     .font(.title)
                 
-                Rectangle()
-                    .frame(height: 0.6)
-                    .padding(.bottom, 6)
+                CustomRectangleView()
                 
                 
                 HStack {
@@ -127,9 +121,7 @@ struct ContentView: View {
                 Text("Interests")
                     .font(.title)
                 
-                Rectangle()
-                    .frame(height: 0.6)
-                    .padding(.bottom, 6)
+                CustomRectangleView()
                 
                 HStack {
                     Spacer()

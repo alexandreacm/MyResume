@@ -11,6 +11,7 @@
 		1D862EB92B2A36A700A58C3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D862EB82B2A36A700A58C3F /* ContentView.swift */; };
 		1D862EBB2B2A36A800A58C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D862EBA2B2A36A800A58C3F /* Assets.xcassets */; };
 		1D862EBE2B2A36A800A58C3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D862EBD2B2A36A800A58C3F /* Preview Assets.xcassets */; };
+		1DAB7BB42B3D07CE008C014D /* CustomRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB7BB32B3D07CE008C014D /* CustomRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D862EB82B2A36A700A58C3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D862EBA2B2A36A800A58C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D862EBD2B2A36A800A58C3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DAB7BB32B3D07CE008C014D /* CustomRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D862EB62B2A36A700A58C3F /* MyResumeApp.swift */,
 				1D862EB82B2A36A700A58C3F /* ContentView.swift */,
+				1DAB7BB32B3D07CE008C014D /* CustomRectangleView.swift */,
 				1D862EBA2B2A36A800A58C3F /* Assets.xcassets */,
 				1D862EBC2B2A36A800A58C3F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DAB7BB42B3D07CE008C014D /* CustomRectangleView.swift in Sources */,
 				1D862EB92B2A36A700A58C3F /* ContentView.swift in Sources */,
 				1D862EB72B2A36A700A58C3F /* MyResumeApp.swift in Sources */,
 			);
